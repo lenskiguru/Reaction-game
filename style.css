@@ -25,9 +25,9 @@
 
 
 .btn {
-    width: 150px;
-    height: 50px;
-    background-color: pink;
+    width: 8rem;
+    height: 3rem;
+    background-color: grey;
     text-transform: uppercase;
     border-radius: 30px;
     border: 1px;
