@@ -13,14 +13,15 @@ let startGame = function () {
 
 let makeShapeVisible = function(){
     let shape = document.getElementById('shape')
-    let top = Math.random() * 400;
-    let left = Math.random() * 700;
-    let width = Math.random() * 200 + 50;
+    let size = Math.random() * 100 + 50;
+
+    let top = Math.random() * (window.innerHeight - size - 20); 
+    let left = Math.random() * (window.innerWidth - size - 20);
 
     shape.style.top = top + 'px';
     shape.style.left = left + 'px';
-    shape.style.width = width + 'px';
-    shape.style.height = width + 'px';
+    shape.style.width = size + 'px';
+    shape.style.height = size + 'px';
 
     shape.classList.remove('hidden');
     shape.classList.add('visible');
