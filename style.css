@@ -1,0 +1,37 @@
+#shape {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+}
+
+
+.btn {
+    width: 150px;
+    height: 50px;
+    background-color: pink;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 1px;
+    cursor: pointer;
+}
+
+
+
